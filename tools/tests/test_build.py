@@ -146,3 +146,4 @@ def test_build_writes_utf8(tmp_path):
     written = build(tmp_path, SITE)
     assert sorted(p.name for p in written) == ["first.html", "index.html", "second.html"]
     assert "Ylimäki" in (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert b"\r\n" not in (tmp_path / "index.html").read_bytes()

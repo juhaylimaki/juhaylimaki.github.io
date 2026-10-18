@@ -170,7 +170,7 @@ def render_page(site: dict, project: dict | None) -> str:
 def build(root: Path, site: dict) -> list[Path]:
     pages = [(root / "index.html", None)] + [(root / f'{p["slug"]}.html', p) for p in site["projects"]]
     for path, project in pages:
-        path.write_text(render_page(site, project), encoding="utf-8")
+        path.write_text(render_page(site, project), encoding="utf-8", newline="\n")
     return [path for path, _ in pages]
 
 
