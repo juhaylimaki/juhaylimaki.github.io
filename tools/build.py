@@ -6,6 +6,7 @@ import datetime
 import html
 import json
 import re
+import sys
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -35,8 +36,10 @@ def youtube_id(value: str) -> str:
     value = value.strip()
     if not value or YT_ID.match(value):
         return value
-    url = urlparse(value)
-    host = url.netloc.lower().removeprefix("www.").removeprefix("m.")
+    url = urlparse(value if "://" in value else "https://" + value)
+    host = url.netloc.lower()
+    for prefix in ("www.", "m.", "music."):
+        host = host.removeprefix(prefix)
     candidate = ""
     if host == "youtu.be":
         candidate = url.path.strip("/")
@@ -68,7 +71,7 @@ def render_block(block: dict, project: dict, counter: list) -> str:
     kind = block["type"]
     if kind == "image":
         counter[0] += 1
-        alt = shorten(plain_text(block["caption_html"]), 125) or f"{project['title']} — image {counter[0]}"
+        alt = shorten(plain_text(block.get("caption_html", "")), 125) or f"{project['title']} — image {counter[0]}"
         return (f'<figure class="block block-image"><a class="lb" href="{block["file"]}.{block["ext"]}">'
                 f'{render_image(block, alt)}</a>{caption(block)}</figure>')
     if kind == "video":
@@ -115,12 +118,23 @@ def render_home(site: dict) -> str:
     return f'<main class="tiles">{"".join(tiles)}</main>'
 
 
+class BuildError(Exception):
+    """A problem in site.json, worded so it can be fixed by hand."""
+
+
 def render_project(site: dict, project: dict) -> str:
     projects = site["projects"]
     i = projects.index(project)
     prev, nxt = projects[i - 1], projects[(i + 1) % len(projects)]
     counter = [0]
-    blocks = "".join(render_block(b, project, counter) for b in project["blocks"])
+    rendered = []
+    for n, block in enumerate(project["blocks"], start=1):
+        try:
+            rendered.append(render_block(block, project, counter))
+        except (KeyError, ValueError, TypeError) as e:
+            problem = f"missing field {e}" if isinstance(e, KeyError) else str(e)
+            raise BuildError(f'{project["slug"]}, block {n}: {problem}') from e
+    blocks = "".join(rendered)
     intro = f'<div class="project-intro">{project["description_html"]}</div>' if project["description_html"] else ""
     nav = (f'<nav class="project-nav"><a class="prev" href="{prev["slug"]}.html">← {esc(prev["title"])}</a>'
            f'<a class="next" href="{nxt["slug"]}.html">{esc(nxt["title"])} →</a></nav>')
@@ -169,14 +183,22 @@ def render_page(site: dict, project: dict | None) -> str:
 
 def build(root: Path, site: dict) -> list[Path]:
     pages = [(root / "index.html", None)] + [(root / f'{p["slug"]}.html', p) for p in site["projects"]]
-    for path, project in pages:
-        path.write_text(render_page(site, project), encoding="utf-8", newline="\n")
-    return [path for path, _ in pages]
+    rendered = [(path, render_page(site, project)) for path, project in pages]  # all or nothing
+    for path, page in rendered:
+        path.write_text(page, encoding="utf-8", newline="\n")
+    return [path for path, _ in rendered]
 
 
 def main() -> None:
-    site = json.loads(SITE_JSON.read_text(encoding="utf-8"))
-    for path in build(Path("."), site):
+    try:
+        site = json.loads(SITE_JSON.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        sys.exit(f"{SITE_JSON} is not valid JSON (line {e.lineno}, column {e.colno}): {e.msg}. Nothing was written.")
+    try:
+        written = build(Path("."), site)
+    except BuildError as e:
+        sys.exit(f"Error in {SITE_JSON}: {e}. Nothing was written.")
+    for path in written:
         print(f"wrote {path}")
 
 

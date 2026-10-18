@@ -48,8 +48,16 @@
     boxImg.alt = thumb ? thumb.alt : "";
   }
 
+  // While the lightbox is open, everything behind it is inert so Tab stays inside the dialog.
+  function setBackgroundInert(value) {
+    Array.prototype.forEach.call(document.body.children, function (el) {
+      if (el !== box) el.inert = value;
+    });
+  }
+
   function open(link) {
     ensureBox();
+    setBackgroundInert(true);
     links = Array.prototype.slice.call(document.querySelectorAll("a.lb"));
     opener = link;
     show(links.indexOf(link));
@@ -61,6 +69,7 @@
   function close() {
     if (!box || box.hidden) return;
     box.hidden = true;
+    setBackgroundInert(false);
     boxImg.removeAttribute("src");
     document.body.style.overflow = "";
     if (opener) opener.focus();
@@ -82,6 +91,7 @@
     wrap.className = "yt";
     wrap.appendChild(frame);
     btn.replaceWith(wrap);
+    frame.focus();
   }
 
   document.addEventListener("click", function (e) {

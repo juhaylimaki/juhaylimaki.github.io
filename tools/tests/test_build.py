@@ -147,3 +147,28 @@ def test_build_writes_utf8(tmp_path):
     assert sorted(p.name for p in written) == ["first.html", "index.html", "second.html"]
     assert "Ylimäki" in (tmp_path / "index.html").read_text(encoding="utf-8")
     assert b"\r\n" not in (tmp_path / "index.html").read_bytes()
+
+
+@pytest.mark.parametrize("value", [
+    f"youtu.be/{YT}",
+    f"www.youtube.com/watch?v={YT}",
+    f"https://music.youtube.com/watch?v={YT}",
+])
+def test_youtube_id_schemeless_and_music(value):
+    assert youtube_id(value) == YT
+
+
+def test_build_error_names_location_and_writes_nothing(tmp_path):
+    from tools.build import BuildError
+    site = copy.deepcopy(SITE)
+    site["projects"][1]["blocks"] = [{"type": "video", "adobe_id": "z", "youtube_id": "oops", "caption_html": "<p>Teaser</p>"}]
+    with pytest.raises(BuildError) as err:
+        build(tmp_path, site)
+    assert "second" in str(err.value) and "block 1" in str(err.value) and "oops" in str(err.value)
+    assert list(tmp_path.glob("*.html")) == []
+
+
+def test_block_missing_optional_caption_renders():
+    site = copy.deepcopy(SITE)
+    site["projects"][0]["blocks"] = [{"type": "video", "youtube_id": ""}]
+    assert "Video coming soon" in render_page(site, site["projects"][0])

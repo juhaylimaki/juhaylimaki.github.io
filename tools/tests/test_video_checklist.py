@@ -19,3 +19,13 @@ def test_lists_videos_in_order_with_status():
     assert "- [x] 2. (no caption) — youtube_id: dQw4w9WgXcQ" in text
     assert "not a video" not in text
     assert "## Beta" not in text
+
+
+def test_invalid_id_is_not_ticked():
+    site = {"projects": [{"slug": "a", "title": "Alpha", "blocks": [
+        {"type": "video", "youtube_id": "https://www.youtube.com/@channel", "caption_html": ""},
+        {"type": "video", "youtube_id": "https://youtu.be/dQw4w9WgXcQ?si=x", "caption_html": ""},
+    ]}]}
+    text = render_checklist(site)
+    assert "- [ ] 1. (no caption) — youtube_id: INVALID: https://www.youtube.com/@channel" in text
+    assert "- [x] 2. (no caption) — youtube_id: dQw4w9WgXcQ" in text

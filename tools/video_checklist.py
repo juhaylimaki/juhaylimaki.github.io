@@ -5,7 +5,7 @@ Run:  .venv/Scripts/python -m tools.video_checklist
 import json
 from pathlib import Path
 
-from tools.build import plain_text, shorten
+from tools.build import plain_text, shorten, youtube_id
 
 SITE_JSON = Path("content/site.json")
 OUTPUT = Path("docs/video-checklist.md")
@@ -34,9 +34,15 @@ def render_checklist(site: dict) -> str:
             continue
         lines += ["", f"## {project['title']}", ""]
         for n, video in enumerate(videos, start=1):
-            label = shorten(plain_text(video["caption_html"]), 80) or "(no caption)"
-            done = "x" if video["youtube_id"] else " "
-            lines.append(f"- [{done}] {n}. {label} — youtube_id: {video['youtube_id'] or '(empty)'}")
+            label = shorten(plain_text(video.get("caption_html", "")), 80) or "(no caption)"
+            raw = video.get("youtube_id", "")
+            try:
+                vid = youtube_id(raw)
+                status = vid or "(empty)"
+            except ValueError:
+                vid, status = "", f"INVALID: {raw}"
+            done = "x" if vid else " "
+            lines.append(f"- [{done}] {n}. {label} — youtube_id: {status}")
     return "\n".join(lines) + "\n"
 
 

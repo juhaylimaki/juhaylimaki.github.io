@@ -42,3 +42,11 @@ def test_external_and_mailto_ignored(tmp_path):
         '<a href="https://example.com/x">x</a><a href="mailto:a@b.fi">m</a><a href="#top">t</a>'
         '<a href="//cdn.example.com/y">y</a>'), encoding="utf-8")
     assert check(tmp_path) == []
+
+
+def test_publishing_files_required(tmp_path):
+    from tools.check_site import check_publishing
+    assert len(check_publishing(tmp_path)) == 2
+    (tmp_path / ".nojekyll").write_text("", encoding="utf-8")
+    (tmp_path / "robots.txt").write_text("User-agent: *\nDisallow: /tools/\nDisallow: /docs/\n", encoding="utf-8")
+    assert check_publishing(tmp_path) == []

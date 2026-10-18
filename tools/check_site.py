@@ -41,9 +41,21 @@ def check(root: Path) -> list[str]:
     return errors
 
 
+def check_publishing(root: Path) -> list[str]:
+    """GitHub Pages must serve the files as-is and keep tools/ and docs/ out of search engines."""
+    errors = []
+    if not (root / ".nojekyll").is_file():
+        errors.append(".nojekyll missing (GitHub Pages would run Jekyll and publish docs/*.md as pages)")
+    robots = root / "robots.txt"
+    text = robots.read_text(encoding="utf-8") if robots.is_file() else ""
+    if "Disallow: /tools/" not in text or "Disallow: /docs/" not in text:
+        errors.append("robots.txt must disallow /tools/ and /docs/")
+    return errors
+
+
 def main() -> None:
     root = Path(".")
-    errors = check(root)
+    errors = check(root) + check_publishing(root)
     for error in errors:
         print(error)
     if errors:
