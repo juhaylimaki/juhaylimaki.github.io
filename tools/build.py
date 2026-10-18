@@ -147,7 +147,9 @@ def render_project(site: dict, project: dict) -> str:
 def render_page(site: dict, project: dict | None) -> str:
     if project is None:
         title = f'{site["name"]} — {site["tagline"]}'
-        description = f'{site["about"]} Portfolio of {site["name"]}.'
+        about = site["about"].rstrip()
+        about += "" if about.endswith((".", "!", "?")) else "."
+        description = f'{about} Portfolio of {site["name"]}.'
         cover = site["projects"][0]["cover"]
         body = render_home(site)
     else:

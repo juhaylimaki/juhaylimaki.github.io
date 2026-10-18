@@ -180,3 +180,9 @@ def test_footer_obfuscated_email_is_plain_text():
     html = render_page(site, None)
     assert '<span class="footer-email">juha.ylimaki(at)gmail.com</span>' in html
     assert "mailto:" not in html
+
+
+def test_home_description_punctuates_about():
+    site = copy.deepcopy(SITE)
+    site["about"] = "Game Producer (with experience)"
+    assert '<meta name="description" content="Game Producer (with experience). Portfolio of Juha Ylimäki.">' in render_page(site, None)
