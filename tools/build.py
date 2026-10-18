@@ -99,8 +99,11 @@ def render_header(site: dict) -> str:
 def render_footer(site: dict) -> str:
     contact = site.get("contact", {})
     links = []
-    if contact.get("email"):
-        links.append(f'<a href="mailto:{esc(contact["email"])}">{esc(contact["email"])}</a>')
+    email = contact.get("email", "")
+    if "@" in email:
+        links.append(f'<a href="mailto:{esc(email)}">{esc(email)}</a>')
+    elif email:  # written as name(at)domain to keep it from spam harvesters: show as text, no link
+        links.append(f'<span class="footer-email">{esc(email)}</span>')
     if contact.get("linkedin"):
         links.append(f'<a href="{esc(contact["linkedin"])}" target="_blank" rel="noopener">LinkedIn</a>')
     contact_html = f'<p class="footer-contact">{" · ".join(links)}</p>' if links else ""

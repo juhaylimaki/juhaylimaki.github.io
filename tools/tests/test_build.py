@@ -172,3 +172,11 @@ def test_block_missing_optional_caption_renders():
     site = copy.deepcopy(SITE)
     site["projects"][0]["blocks"] = [{"type": "video", "youtube_id": ""}]
     assert "Video coming soon" in render_page(site, site["projects"][0])
+
+
+def test_footer_obfuscated_email_is_plain_text():
+    site = copy.deepcopy(SITE)
+    site["contact"] = {"email": "juha.ylimaki(at)gmail.com", "linkedin": ""}
+    html = render_page(site, None)
+    assert '<span class="footer-email">juha.ylimaki(at)gmail.com</span>' in html
+    assert "mailto:" not in html
