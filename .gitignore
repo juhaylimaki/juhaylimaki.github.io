@@ -2,3 +2,7 @@ tools/.download/
 node_modules/
 .DS_Store
 Thumbs.db
+.venv/
+__pycache__/
+.pytest_cache/
+.superpowers/

@@ -1,0 +1,952 @@
+{
+  "name": "Juha Ylimäki",
+  "tagline": "Games and Visuals",
+  "base_url": "https://juhaylimaki.github.io",
+  "about": "Game artist, animator, level designer and game designer.",
+  "contact": {
+    "email": "",
+    "linkedin": ""
+  },
+  "projects": [
+    {
+      "slug": "casual-art",
+      "title": "Casual Art",
+      "description_html": "Casual Art by me.",
+      "cover": {
+        "type": "image",
+        "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/7abc2721-a91e-4dc8-ac58-7d3a6c5372fe_rwc_0x2443x3840x3002x3840.jpg?h=81cbeaf302c41d8e67aeac9b6bc93fc8",
+        "caption_html": "",
+        "file": null,
+        "ext": null,
+        "width": null,
+        "height": null,
+        "webp": null
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/8089bd27-3af7-43b6-a079-38414d0e39be.jpg?h=b995eeaa276d0c3bea5c01e15c8f6c12",
+          "caption_html": "<p>Environment I painted in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/ad1d9487-4e35-4e56-8487-23fdf1ab715b.jpg?h=84d385a7570fa213b5c5717590801bf6",
+          "caption_html": "<p>Well I modeled and unwrapped in Blender. Textured and edited in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/23893c25-a3fa-4aa5-921f-ca32ede117a8.png?h=486467845703c4cc8e7acbe4c8c27691",
+          "caption_html": "<p>An illustration for the Finnish Children's Show Pikku Kakkonen about \"Media Fear\". I created this in Adobe Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/4c1b1978-e8d4-4c06-825b-8f978b12b5f2.jpg?h=5719efdd016d87ddecf4773bc1dec8a6",
+          "caption_html": "<p>Inspired by the visual style of the Finnish Children's show Pikku Kakkonen. I created this in Adobe Illustrator.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "Nmvs7MZ8CN8",
+          "youtube_id": "",
+          "caption_html": "<p>3D cat character I modelled and textured in Blender. Posing and rendering I created in Unity.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/1f4403e2-f2a9-4be5-b289-be2f30d7e990.jpg?h=711b645d8046a2fb9e04484e0c46c23a",
+          "caption_html": "<p>Cat character concept art I painted in Photoshop. I used this as reference image in Blender for modeling.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/0ec64112-dfff-47ab-837e-5eda83c76688.jpg?h=57ef4cd56330873a6bc8e98d1007ba2f",
+          "caption_html": "<p>Flower Item (Level 1 Succulent) I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/e6c8069b-6dfb-4b6a-8b4c-1c5036cf8490.jpg?h=0a085c03aae89b5f1513fdaa49233374",
+          "caption_html": "<p>Flower Item (Level 2 Succulent) I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5b20fcc1-ef14-4969-ae5d-fa9a566608e0.jpg?h=49c9a3640261d7a7280b037cd6dab701",
+          "caption_html": "<p>Flower Item (Level 3 Succulent) I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5dd8658f-adaa-4f9b-aa9a-424fa4a3622b.jpg?h=3795e124ce5a01580463a58642d19000",
+          "caption_html": "<p>Trowel item I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5aaf5607-f9cf-4fc2-a863-52ba6672a4ac.jpg?h=932ec87bf4803c12c3dfc21f48380495",
+          "caption_html": "<p>Paint Roller item I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/bf0e0e44-3925-4b6d-85a2-cf29a1b3e362.jpg?h=12175d7ba13a0f7542cc76f11ba8460d",
+          "caption_html": "<p>Brick item I painted in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/76cba212-9750-497d-a0bd-d8c5cba9d6cb.jpg?h=bb1d22a9063a2dd92e6400abdf4aa2bb",
+          "caption_html": "<p>Hayday Chimera Sketch I drew in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/aeef0a47-0720-48f0-a67d-2f76f08168ad.jpg?h=0754f585fe873c3440fe222a5a87112a",
+          "caption_html": "<p>Sketch of a certain character I drew in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        }
+      ]
+    },
+    {
+      "slug": "indie-stuff",
+      "title": "Indie Games at Muro Studios",
+      "description_html": "I worked as Founder/CEO, Game Artist, Animator, Level Designer and Game Designer at indie team Muro Studios (2015 - 2023). Released games DOOMBLADE, Shadow Bug, Shadow Bug Rush and Bro Fist Simulator.",
+      "cover": {
+        "type": "image",
+        "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/788b3ad8-2dbd-4e1c-9a7e-58809a47a87a_rwc_540x0x2762x2160x2762.jpg?h=1cf158b90124804567f4ec9fc77d73d6",
+        "caption_html": "",
+        "file": null,
+        "ext": null,
+        "width": null,
+        "height": null,
+        "webp": null
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/81c65430-2140-4db2-81df-0ddf51ce75a6.jpg?h=3ea3bea5572478dfac5d7a4471185972",
+          "caption_html": "<p>Grublin Wagon Shop.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "U2XRvETHY8c",
+          "youtube_id": "",
+          "caption_html": "<p>Release Trailer of DOOMBLADE. It's available on PC on Steam, Epic Store and GOG.<br/>Check out the 60fps version here: <a href=\"https://store.steampowered.com/app/922050/DOOMBLADE/\" rel=\"noopener\" target=\"_blank\">https://store.steampowered.com/app/922050/DOOMBLADE/</a><br/><br/>Walkthrough of the game can be seen here: <a href=\"https://www.youtube.com/watch?v=J8HB1I8Mdmw\" rel=\"noopener\" target=\"_blank\">https://www.youtube.com/watch?v=J8HB1I8Mdmw</a><br/><br/>All in-game visuals and animations by me.<br/>I painted everything in Photoshop and modeled all the assets and characters in Blender. I animated everything in Unity.<br/>I also balanced the gameplay feel and economy in the game and worked on the level design.<br/>Code and lead game design by Kim Valori.<br/>Music and sfx by Brian Skeel.<br/>I acted as the Art Director for the release trailer from concept to final version while keeping the game Publisher's marketing team in the feedback loop.<br/>Video editing by Samuli Lautjärvi.<br/>Key Marketing Art in the end of the video by Boris Moncel from TAKEOFF Studios.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/23ad6e97-dd25-4390-ae2c-5ae01507598d.jpg?h=a36977a9b24abac4f8157c93521c444a",
+          "caption_html": "<p>New Wilderwood Forest.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/3c35d284-1914-4728-be88-800524a21af1.png?h=983f22ec28aefffc1594472cac7c8cf6",
+          "caption_html": "<p>Chapel of Doom.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/b240199f-52ca-4e21-a6f2-196c9718b8e3.png?h=3d6c27d41261a0848e65cad1d22bbde5",
+          "caption_html": "<p>Void Fast Travel Hub.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/aaf63ed3-f7fa-4a70-977d-a4693e09cd37.jpg?h=f2aa3c9d7127ee8f602f3d1742797528",
+          "caption_html": "<p>The Inside (Belly World).<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/c61aefa9-7e06-46ea-a0b4-5c9692e8b788.jpg?h=af79ecff9781357a837902cc64290436",
+          "caption_html": "<p>Generator Room in the Power Sector.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5c5e2899-379b-4a20-8114-fba29c820cb2.jpg?h=ef334d49dba584909e81a28671f26417",
+          "caption_html": "<p>Paradise Wells (The Surface).<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/3cf8b99c-f6ed-4612-8cd8-c76dff81c483.jpg?h=9955c1a37c8df136944fd5ed0bf5e79f",
+          "caption_html": "<p>Tank creature. All visuals by me. In-game screenshot from DOOMBLADE.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/04d8cef7-e61d-43d6-b3c5-92171bf19c1f.jpg?h=50b8cbe3bb7464fcb73f415a8bb010ad",
+          "caption_html": "<p>Squid creature flying around. All visuals by me. In-game screenshot from DOOMBLADE.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/6f1ccac8-6866-4d78-8f3b-bddbf7341d7a.jpg?h=a1fe2cca7e529d7334e881a47ec0a648",
+          "caption_html": "<p>Locksmith's Lab in the Power Sector.<br/>8k in-game screenshot from DOOMBLADE.<br/>Visual assets created in Photoshop and Blender. Environment Art made in Unity.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/1047848e-83ad-4788-9df9-cdfbd7d0e71d.png?h=fd65e5de9122e9872b37b6b27c60ea9d",
+          "caption_html": "<p>Concept Image of Gloom Girl - the protagonist of DOOMBLADE game. Created by me in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/590d095c-bb8b-47d4-b26f-708e3905d7f1.jpg?h=9e42fab36b77de1d5015e0f049fc55fb",
+          "caption_html": "<p>Concept image of the Dread Lords - the final bosses of DOOMBLADE game. Painted in Photoshop by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/0a655b4c-8722-45eb-80df-e269af3ae455.jpg?h=e23396517e37fb6fffaf27d3692c981a",
+          "caption_html": "<p>Runed Golem - a boss fight in DOOMBLADE. Made by me. In-game screenshot.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/22822eae-b812-4c09-a5fd-7cf9c0a48926.jpg?h=0d69d9bc4a2f4ff91d9dd41eade6c213",
+          "caption_html": "<p>Wilderchief - an NPC character from DOOMBLADE. In-game screenshot.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/2f49c5fa-4b2a-45ba-b9ec-dcf06a5b242f.jpg?h=f6aac4e5125de0cf0c50c0bb0ad6118c",
+          "caption_html": "<p>Screenshot of a highlight moment:<br/>DOOMBLADE is officially described as the 20th best game of 2023 in halfway of the year on Metacritic website!</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/7a2f2ac2-fb8c-4187-8229-60a00455b53e.jpg?h=f503a83207e480f14ffe0e21e042f8f3",
+          "caption_html": "<p>Early concept art for DOOMBLADE game project.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/b1031595-feb6-466b-88a4-92d4d5c8380a.jpg?h=0c13b18a6ff9656083fecd9a562216f9",
+          "caption_html": "<p>Early concept art for DOOMBLADE game project.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/117ed08a-6375-4e3f-803c-c5e91609c6f8.jpg?h=4107940393f855d5a711d9a0f68cfed0",
+          "caption_html": "<p>Early concept art for DOOMBLADE game project.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/01e61f48-cf6b-44b4-a76d-e02e994549b9.jpg?h=d271a30cbe847b968b5f1440c616c865",
+          "caption_html": "<p>Early character concept for Gloom Girl - the protagonist of DOOMBLADE game.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "K7EV6aIJmXn",
+          "youtube_id": "",
+          "caption_html": "<p>Spine2D technical test in Unity. Boss fight concept animation for DOOMBLADE game project.<br/>After this test I chose to model and rig all characters in Blender in order to optimize the game.<br/>All visuals and animations by me.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/d429f536-10db-46d2-a6c5-a465fd8f3fcb.jpg?h=a90f57f9bc371b2814b51c15c51dd3ae",
+          "caption_html": "<p>Muro Studios pitch deck illustration by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/cc485b7e-8ad3-4328-9b5b-a9eb25709086.jpg?h=23c3c90fd2450c7071f57183de3d6a5b",
+          "caption_html": "<p>Screenshot of the game Shadow Bug. (iOS, Hatch, Steam, Utomik, Nintendo Switch).<br/>First time featured on the App Store front page on release as a paid premium game.<br/>Second time App Store feature as a free downloadable premium game of the week at the same time with the release of the f2p game Shadow Bug Rush.<br/>All visuals by me.<br/><a href=\"http://www.shadowbug.com\" rel=\"noopener\" target=\"_blank\">http://www.shadowbug.com</a></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "HacD2qQBtYm",
+          "youtube_id": "",
+          "caption_html": "<p>Shadow Bug release trailer for Nintendo Switch. <a href=\"https://www.youtube.com/watch?v=HEzHtkaPuII\" rel=\"noopener\" target=\"_blank\">https://www.youtube.com/watch?v=HEzHtkaPuII</a><br/><br/>All visuals, animations and video editing by me.<br/>I also balanced the gameplay feel in the game and worked on the level design.<br/>Code and design by Kim Valori.<br/>Music and sfx by Veli Laamanen.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/0b76f082-b962-48b8-9fd4-bdb1e541760f.png?h=afaf631ad3cb27997fb53f8a98acce7a",
+          "caption_html": "<p>Physical Collector's Edition of Shadow Bug Nintendo Switch version.<br/>I acted as the Art Director for this whole package.<br/>Most of the visual materials are made with the visuals I had created for Shadow Bug.<br/>Additional design by Patrick Makhoul from First Press Games.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/6fe3823b-e450-4976-b80e-b157012923ab.jpg?h=c895c092265ba3356cdd8d80bf6129c8",
+          "caption_html": "<p>Loading screen and key marketing art image for Shadow Bug.<br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5a05afe3-69d0-4e80-8d6e-99c1d7aae17c.jpg?h=696487d946e1bb1101458e5e10b7ce41",
+          "caption_html": "<p>Screenshot of the game Shadow Bug. (iOS, Hatch, Steam, Utomik, Nintendo Switch).<br/>All visuals by me.<br/>http://www.shadowbug.com</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/45e5c2b4-89a4-491e-9c0f-4018ec2ff047.jpg?h=0b5946152414f32a2b9ba40c622a4edf",
+          "caption_html": "<p>Loading screen and marketing art image for Shadow Bug.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/a4752d14-d92e-406b-8968-eb1e8bf816d5.jpg?h=13035989f90d4d3f0c43eb36dccd9d34",
+          "caption_html": "<p>Loading screen and key marketing art image for Shadow Bug.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/515d5aaa-076a-422a-a812-0f911f68f39f.png?h=0646a38d88ca305c46ff145c28451989",
+          "caption_html": "<p>Title for Muro Studios game Shadow Bug Rush. (iOS, Google Play).<br/>Featured on the App Store front page.<br/><a href=\"http://www.shadowbugrush.com\" rel=\"noopener\" target=\"_blank\">http://www.shadowbugrush.com</a><br/>All visuals by me.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "IiNVwvtFByj",
+          "youtube_id": "",
+          "caption_html": "<p>Shadow Bug Rush was released half a year after Shadow Bug.<br/>It's a f2p version of the game with collectable characters, power ups and infinite levels. When we were releasing Shadow Bug Rush, we pitched an idea to our Apple contact that it would be amazing if Shadow Bug would get the free app of the week at the same time when we release Shadow Bug Rush so these two games could advertise each other in the games. We got the double feature!<br/><br/>All visuals, animations and video editing by me.<br/>Code and design by Kim Valori.<br/>Music and sfx by Veli Laamanen.<br/>Additional sfx by Denis Zlobin.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/85960c67-07a9-4d6e-9b06-08c570285622.jpg?h=7c7b32b29cfd07ead18d241d01ed7ab0",
+          "caption_html": "<p>Screenshot of the game Shadow Bug Rush. (iOS)<br/>All visuals by me.<br/><a href=\"http://www.shadowbugrush.com\" rel=\"noopener\" target=\"_blank\">http://www.shadowbugrush.com</a></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/b513d765-198a-4484-af20-e7c56c5867de.jpg?h=268b0f91331e772e5c997d1ee011916f",
+          "caption_html": "<p>Screenshot of the game Shadow Bug Rush. (iOS)<br/>All visuals by me.<br/><a href=\"http://www.shadowbugrush.com\" rel=\"noopener\" target=\"_blank\">http://www.shadowbugrush.com</a></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/6b3afd7f-a349-4a8e-a2b2-ebe1a47f3ac0.jpg?h=7e9696b1ba02ccc43cb0df4219a82b36",
+          "caption_html": "<p>iPhone screenshot of a highlight moment:<br/>Shadow Bug and Shadow Bug Rush featured at the same time at the Apple App Store front page!<br/><br/>Shadow Bug was featured on the front page of the App Store when it was released as a premium paid game.<br/><br/>When we released Shadow Bug Rush we managed to get both of the games featured on the front page of the App Store.<br/>Shadow Bug was featured as the free downloadable premium game of the week while both games cross-promoted each other in-game.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/299ca0e1-5952-4d27-830a-91a055ed998d.jpg?h=291e0a841dd17059ac03e995f2b5c19f",
+          "caption_html": "<p>Gameplay concept art for a Zelda-like adventure game.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/4c054b76-f3c8-4d5b-a295-9cdbb37e5cc5.jpg?h=589405de86b2b206a1bf039bb1e37cb4",
+          "caption_html": "<p>Main character concept for a Zelda-like adventure game.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/4994fab3-6028-4485-9bb2-78d81bb16fd3.jpg?h=fd0825a1918136557c326bdc0f591fa7",
+          "caption_html": "<p>Gameplay concept art for a Zelda-like adventure game.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/adbd9f6e-523a-468e-a1ec-73508cfe4d18.gif?h=ef893e96c192f97667509dbaf425ffc9",
+          "caption_html": "<p>Goblin character for a Zelda-like adventure game.<br/>All visuals by me.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/00e8d22d-9067-48c2-8407-23ac2c54adec.gif?h=6828d7bef06fbc7fdf56227935a59de4",
+          "caption_html": "<p>Title for Muro Studios game Bro Fist Simulator. (iOS, Website).<br/>Bro Fist Simulator is a fun gamejam game that we ended up developing further and releasing on iOS and as a playable on the website of the game.<br/><a href=\"http://www.brofistsimulator.com\" rel=\"noopener\" target=\"_blank\">http://www.brofistsimulator.com</a></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "2wAVzhroB8m",
+          "youtube_id": "",
+          "caption_html": "<p>Trailer for the award winning game Bro Fist Simulator.<br/><br/>All visuals, animations and video editing by me.<br/>Code by Kim Valori.<br/>SFX by Lauri Rustanius.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "bugbear-stuff",
+      "title": "AAA Level Designer at Bugbear Entertainment",
+      "description_html": "Worked as a Level Designer at Bugbear  Entertainment (2011 - 2013). Released Ridge Racer Unbounded (AAA-title) for PC and consoles.",
+      "cover": {
+        "type": "image",
+        "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/ffde835b-7243-47d4-a161-7e483fae07d5_rwc_540x0x2762x2160x2762.jpg?h=139f067d08964cedb749b39bdeff76be",
+        "caption_html": "",
+        "file": null,
+        "ext": null,
+        "width": null,
+        "height": null,
+        "webp": null
+      },
+      "blocks": [
+        {
+          "type": "video",
+          "adobe_id": "SgRdi4Y5_Cc",
+          "youtube_id": "",
+          "caption_html": "<p>I did the level design (using the in-game level editor) of all the tracks appearing on the video above. Environment artists created the assets used in the levels.<br/><br/>Generally I planned the level design first in Photoshop and by doing research depending on what type of level we were working on. Then grayboxed the levels in 3Ds Max and iterated the level after playtesting a lot and getting feedback from the development team and the players. I also collaborated with environment artists in the level creation process. I also created interactive events in the levels with the in-house scripting tool.<br/>In Ridge Racer Unbounded we designed the levels as blocks that can be used in the UGC level editor. <br/><br/>Highlight from my work at Bugbear was an email from the Namco QA team - they sent a bug notification where they just wanted to send their appreciation for my level design!<br/><br/>Read the email here: <a href=\"https://www.shadowbug.com/portfolio/namco_email.txt\" rel=\"noopener\" target=\"_blank\">https://www.shadowbug.com/portfolio/namco_email.txt</a></p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/6b95c065-880a-44e5-b289-01a18e1901ce.jpg?h=64f0f8ec00ed910cf8fc90bdc644da29",
+          "caption_html": "<p>Level design concept I drew on paper.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/df5550dc-5ec8-4ae4-a076-f630be202540.jpg?h=abbce41380e3342a5fd25e91ce9d2f4f",
+          "caption_html": "<p>Level design concept I drew on paper.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/e217362c-5b28-4cd4-b593-59621326423f.jpg?h=38db70f2550572cab380ba96c4874eda",
+          "caption_html": "<p>Level design concept I made in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/7d9ce5cb-3cbd-4b3d-a46c-0d2231c6caa2.jpg?h=ebbbfe27c70cf7c60dabcce38a876e52",
+          "caption_html": "<p>Track design I made in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/ca9dfab7-b6bb-44db-bf5b-25b694e7849f.jpg?h=3763598582a188f5cd11842587293b03",
+          "caption_html": "<p>Track design I made in Photoshop.<br/></p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        }
+      ]
+    },
+    {
+      "slug": "miscellaneous-stuff",
+      "title": "Freelance Illustrations and Animations",
+      "description_html": "Illustrations and animations I have created along the years as a freelancer and for fun.",
+      "cover": {
+        "type": "image",
+        "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/1da50e3f-61c4-4966-87ea-6c86c238520a_rwc_540x0x2762x2160x2762.jpg?h=88fcdec9640fa3adcd94677cfa2ab416",
+        "caption_html": "",
+        "file": null,
+        "ext": null,
+        "width": null,
+        "height": null,
+        "webp": null
+      },
+      "blocks": [
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/a63d739c-0e33-431e-8d99-495bfe126970.jpg?h=8fad5e3b7cf1c8ed1404bf52cc566f11",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/11006ecf-5556-4ada-b38f-044a63406468.jpg?h=c69b9eb2961b38de5db174a7df163cc0",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/39696ece-fb8d-43f9-96a8-7f205b0e4dcc.jpg?h=fcf1540c20159d5b85d884ecadb10a1c",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/9bc0c106-9198-42b4-9b53-b5851f758017.jpg?h=5d5cdd2b2ba8b65b85409835220e4b4c",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/121b485c-8bb3-49a8-8b85-86af7bf70404.jpg?h=231d3381ffc084f20c339b6b045bf9c0",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/10be246a-452d-4475-bfa5-321f9feeb9ac.jpg?h=90b077c2d73b734fb9426d86741e25f2",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/09e16a42-0e33-465a-a5ad-87f6705168f2.jpg?h=93251e3f6235231f5760ebed4f3f30c3",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/7da7ec2a-cdde-472a-bf95-f191e7302b73.jpg?h=6457ee0526f77c318179bb2e8cb883fc",
+          "caption_html": "",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "G_3E7JWZkPT",
+          "youtube_id": "",
+          "caption_html": "<p>Animation I created for the Finnish Red Cross Association. Slow paced tutorial video on how to apply for the Friendship campaign as a volunteer.<br/>I created the visuals, character design, story board and animation and iterated the animation during the process with the client's feedback. I used Photoshop and After Effects.</p>"
+        },
+        {
+          "type": "video",
+          "adobe_id": "KwhXSq-biGD",
+          "youtube_id": "",
+          "caption_html": ""
+        },
+        {
+          "type": "row",
+          "children": [
+            {
+              "type": "video",
+              "adobe_id": "LF2RzB6qqEu",
+              "youtube_id": "",
+              "caption_html": ""
+            },
+            {
+              "type": "video",
+              "adobe_id": "GZGo_VfxZXo",
+              "youtube_id": "",
+              "caption_html": ""
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "adobe_id": "Sn_xaB2I3mE",
+          "youtube_id": "",
+          "caption_html": "<p>Another animation I created for the Finnish Red Cross Association. This can be used as small animation loops presenting different events that the association is doing. There is no sound in this version.<br/>I created the visuals, character design, story board and animation and iterated the animation during the process with the client's feedback. I used Photoshop and After Effects.</p>"
+        },
+        {
+          "type": "video",
+          "adobe_id": "-qhhRLH-VT8",
+          "youtube_id": "",
+          "caption_html": "<p>Animation I did in After Effects for Kuudes Kerros (Helsinki based marketing agency).<br/>Illustrations by Kuudes Kerros.<br/>This ad was shown in the finnish television!</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/86ad9fb8-554b-4748-9e3a-705a7320e6b0.jpg?h=50a765a54cc89305f94f68b5dd9269b9",
+          "caption_html": "<p>Photoshop portrait painting. I painted this image from scratch using a reference photo from Pinterest.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "QXUVW3VzTj8",
+          "youtube_id": "",
+          "caption_html": "<p>Cow abduction animation I made in Adobe Flash (Animate).</p>"
+        },
+        {
+          "type": "video",
+          "adobe_id": "8Cj6ucnPf4U",
+          "youtube_id": "",
+          "caption_html": "<p>Advertisement animation video for Aalto University I created using Photoshop and After Effects.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/9912a9f3-23ca-46c7-8249-67cdb60c043d.jpg?h=76a3f8a2b8f0993dfe86a295058117f8",
+          "caption_html": "<p>Lamborghini Gallardo. I modeled the car from scratch in 3ds Max using the car's blueprints as reference. I did some postprosessing for the renders from 3ds Max in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "UrbEIUh_XUb",
+          "youtube_id": "",
+          "caption_html": "<p>Looping fish aquarium animation for Baltic Sea Action Summit in Helsinki. I made this in After Effects.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/860d9ccb-b96b-4262-b0e5-c54207222cc0.jpg?h=2c5ade91d8eb221dd965f6bacdaa47c1",
+          "caption_html": "<p>Stained glass texture I made in Photoshop for a game.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/8264e51e-2221-47fe-bc8c-936b879088b7.jpg?h=fcfdedf6fba5b19afc1181453fc844f9",
+          "caption_html": "<p>Pixel dude I created in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "Qe7NND_8DCi",
+          "youtube_id": "",
+          "caption_html": "<p>Banana Document. Black humor included. Everything by me in Adobe Flash (Animate).</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/e53b6dc7-a0a7-46b4-8f15-fafd112fdd4d.jpg?h=c3c78c03bedf8a17a45b27653b1e313f",
+          "caption_html": "<p>Spirit Dog character illustration I made in Photoshop</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        }
+      ]
+    },
+    {
+      "slug": "aalto-university-stuff",
+      "title": "Master's Degree at Aalto University",
+      "description_html": "Studied at Aalto University (2013 - 2015). Master of Arts in Game Design and Production. Graduated in 2017.",
+      "cover": {
+        "type": "image",
+        "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/44abb4e3-a7c7-4e75-8a09-8b079464ad8c_rwc_252x0x1320x1032x1320.jpg?h=cacb3e30748eca812d91c357b55f97cf",
+        "caption_html": "",
+        "file": null,
+        "ext": null,
+        "width": null,
+        "height": null,
+        "webp": null
+      },
+      "blocks": [
+        {
+          "type": "video",
+          "adobe_id": "DIax4QkjhWJ",
+          "youtube_id": "",
+          "caption_html": "<p>Trailer video I created for a game called Seanuts. I made the level design and all the visuals for the game. Modeled all in 3ds Max. The game is developed in Unity by Sami Sierla.</p>"
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/a478967a-6c1c-4c8c-86a4-61b332dec5c4.jpg?h=5bfef3169dada21439a20b3bc854c86e",
+          "caption_html": "<p>Black Smith's House for a game I modeled in 3ds Max and textured in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/c6c86ad7-c775-4b8c-8d52-4642c0846c68.jpg?h=134697f6a4f94d7fe4daaf4fbf2b9994",
+          "caption_html": "<p>Concept art of a Blacksmith's house I drew in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/84262339-74a3-4302-a732-dc5b9f8ea1f2.jpg?h=9fbd86a61b785a03ad11026e779bb11b",
+          "caption_html": "<p>Concept art for the award winning game Ankkaralli. The game was made by Muro Studios for Veikkaus game competition.<br/>Ankkaralli won the \"Humor\" category! I created all the visuals for this game.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/fbaca58e-dda7-4612-b55d-56e097b4e503.jpg?h=9a2381d14aa87557a16fdc70748657fa",
+          "caption_html": "<p>Concept art I created for a game called Rift League.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/5b534c79-efdc-45fe-9b0e-e29bbf46d520.jpg?h=09b89283ad5790f85b8593d9133906c9",
+          "caption_html": "<p>3D character for a game called Rift League. I modeled this in Maya and textured in Photoshop.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/609d038c-a2e3-45c6-8bfc-1cb9ed1c9e29.jpg?h=3135ee99b8df20632195392d47b54411",
+          "caption_html": "<p>Character concept I created for the game Rift League.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "image",
+          "source_url": "https://cdn.myportfolio.com/86b3adc2-ad54-4a42-b790-03bcc2fdf215/16fe25ae-c5a1-4b2c-a16e-3f3a67032906.jpg?h=504106352df7072a3fab2bb7c1198484",
+          "caption_html": "<p>Texture I painted in Photoshop for the main character in Rift League.</p>",
+          "file": null,
+          "ext": null,
+          "width": null,
+          "height": null,
+          "webp": null
+        },
+        {
+          "type": "video",
+          "adobe_id": "5FbzL7QjiVw",
+          "youtube_id": "",
+          "caption_html": "<p>Characters for a game called Pedestrian Berserk. I created the animations in After Effects and painted the characters in Photoshop.</p>"
+        },
+        {
+          "type": "video",
+          "adobe_id": "DALpvBWxXgq",
+          "youtube_id": "",
+          "caption_html": "<p>Game concept pitch video for a game called Cavern Guilds. I created this video in After Effects and all visuals in Photoshop.<br/>Music by Veli Laamanen.</p>"
+        }
+      ]
+    }
+  ]
+}
