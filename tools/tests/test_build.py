@@ -138,6 +138,10 @@ def test_head_meta():
     assert "<title>Juha Ylimäki — Games and Visuals</title>" in render_page(SITE, None)
 
 
+def test_favicon_linked():
+    assert '<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">' in render_page(SITE, None)
+
+
 def test_build_writes_utf8(tmp_path):
     written = build(tmp_path, SITE)
     assert sorted(p.name for p in written) == ["first.html", "index.html", "second.html"]
